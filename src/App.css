@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.section {
+  min-height: 60vh;
+  padding: 80px 120px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.section-light {
+  background: #f4f4f4;
+}
+
+.section-dark {
+  background: #1e3d78;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.section-gray {
+  background: #e0e1e2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-title {
+  font-size: 42px;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+.hero-title {
+  font-size: 60px !important;
+  margin-bottom: 20px !important;
+}
+
+.hero-subtitle {
+  font-size: 22px;
+}
+
+.hero-logo {
+  width: 100%;
+  max-width: 500px;
+}
+
+.side-nav {
+  position: fixed;
+  right: 40px;
+  top: 35%;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.side-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.side-nav a:hover {
+  color: #1890ff;
+}
+
+.partner-logo {
+  height: 80px;
+  object-fit: contain;
+}
+
+.highlight-card {
+  height: 100%;
 }

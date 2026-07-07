@@ -69,3 +69,13 @@
 .highlight-card {
   height: 100%;
 }
+
+
+.partner-logo {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.partner-logo:hover {
+  transform: scale(1.15);
+}

@@ -19,6 +19,7 @@ import siemensLogo from './assets/siemens.svg';
 import universityLogo from './assets/university.png';
 import youseLogo from './assets/youse.svg';
 import RekonikLogo from './assets/Picture1.png';
+import fundingLogo from './assets/funding.png';
 
 
 import Section from "./components/Section";
@@ -30,54 +31,54 @@ const { Title, Paragraph } = Typography;
 
 const HomePage = () => {
 
-const [selectedPartner, setSelectedPartner] = useState<any>(null);
+  const [selectedPartner, setSelectedPartner] = useState<any>(null);
 
-const partnerInfo = {
-  twt: {
-    name: "TWT GmbH",
-    role: "Coordinator",
-    contact: "Dr. Martin Obstbaum",
-    email: "martin.obstbaum@twt-gmbh.de",
-    address: "Industriestraße 6, 70565 Stuttgart",
-  },
+  const partnerInfo = {
+    twt: {
+      name: "TWT GmbH",
+      role: "Coordinator",
+      contact: "Dr. Martin Obstbaum",
+      email: "martin.obstbaum@twt-gmbh.de",
+      address: "Industriestraße 6, 70565 Stuttgart",
+    },
 
-  fraunhofer: {
-    name: "Fraunhofer IAO",
-    role: "Research Partner",
-    contact: "Benjamin Schneider",
-    address: "Nobelstraße 12, 70569 Stuttgart",
-  },
+    fraunhofer: {
+      name: "Fraunhofer IAO",
+      role: "Research Partner",
+      contact: "Benjamin Schneider",
+      address: "Nobelstraße 12, 70569 Stuttgart",
+    },
 
-  tub: {
-    name: "TU Berlin",
-    role: "Research Partner",
-    contact: "Dr. Carina Fresemann",
-  },
+    tub: {
+      name: "TU Berlin",
+      role: "Research Partner",
+      contact: "Dr. Carina Fresemann",
+    },
 
-  youse: {
-    name: "YOUSE GmbH",
-    role: "Research Partner",
-    contact: "Dr. Sebastian Glende Meinzer",
-  },
+    youse: {
+      name: "YOUSE GmbH",
+      role: "Research Partner",
+      contact: "Dr. Sebastian Glende Meinzer",
+    },
 
-  marquardt: {
-    name: "Marquardt GmbH",
-    role: "Industrial Partner",
-    contact: "Alexander Schneider",
-  },
+    marquardt: {
+      name: "Marquardt GmbH",
+      role: "Industrial Partner",
+      contact: "Alexander Schneider",
+    },
 
-  siemens: {
-    name: "Siemens AG",
-    role: "Industrial Partner",
-    contact: "Dr. Rohit Gupta",
-  },
+    siemens: {
+      name: "Siemens AG",
+      role: "Industrial Partner",
+      contact: "Dr. Rohit Gupta",
+    },
 
-  kassbohrer: {
-    name: "Kässbohrer",
-    role: "Industrial Partner",
-    contact: "Sven Jurak",
-  },
-};
+    kassbohrer: {
+      name: "Kässbohrer",
+      role: "Industrial Partner",
+      contact: "Sven Jurak",
+    },
+  };
   return (
     <>
       <RightNavigation />
@@ -92,14 +93,14 @@ const partnerInfo = {
             <Paragraph className="hero-subtitle">
               Resiliente Kollaborationsstrukturen
               durch KI-unterstützte
-              transdisziplinäre Modelle
-              zur Maximierung von Innovation
-              und Kreativität.
+              transdisziplinäre modelle zur maximierung
+              von innovation und kreativität
+              in der produktentwicklung
             </Paragraph>
           </Col>
 
           <Col span={12}>
-            <img src = {RekonikLogo}/>
+            <img src={RekonikLogo} />
           </Col>
         </Row>
       </Section>
@@ -110,13 +111,15 @@ const partnerInfo = {
         dark
       >
         <Col span={16}>
-          <Paragraph style={{color:"white"}}>
-            The goal of ReKonIK is to develop a
-            resilience framework for product
-            development that promotes
-            adaptability, creativity and
-            innovative capacity through
-            generative AI.
+          <Paragraph style={{ color: "white", fontSize: "17px" }}>
+            The goal of ReKonIK is to develop a resilience framework
+            for product development that promotes
+            and makes measurable adaptability,
+            creativity, and innovative capacity
+            through generative AI,
+            based on analyses along the dimensions of people,
+            technology, and organization.
+
           </Paragraph>
         </Col>
       </Section>
@@ -125,25 +128,26 @@ const partnerInfo = {
         id="contribution"
         title="TWT Contribution"
       >
-        <Col span = {12}>
-        <Card>
-          <List
-            dataSource={[
-              "Use Case Software Defined Vehicle",
-              "Continuity from customer function to technical domain",
-              "Transdisciplinary architecture models",
-              "Knowledge graphs",
-              "Interactive SysML v2 model creation",
-              "Resilience through adaptability",
-              "Creativity through AI suggestions",
-            ]}
-            renderItem={(item) => (
-              <List.Item>
-                {item}
-              </List.Item>
-            )}
-          />
-        </Card>
+        <Col span={12}>
+          <Card>
+            <List
+              dataSource={[
+                "Use Case Software-Defined Vehicle",
+                "Continuity from customer function down to the individual technical domain",
+                "Transdisciplinary architecture models to link the individual technical domains",
+                "Formal methods and knowledge graphs",
+                "Interactive creation of consistent SysML v2 models using large language models",
+                "Resilience through rapid adaptability",
+                "Creativity through suggestions from the modeling copilot",
+                "Productivity through prompt-based model creation",
+              ]}
+              renderItem={(item) => (
+                <List.Item style={{ fontSize: "15px" }}>
+                  {item}
+                </List.Item>
+              )}
+            />
+          </Card>
         </Col>
       </Section>
 
@@ -167,25 +171,25 @@ const partnerInfo = {
 
           <Col span={8}>
             <Card className="highlight-card">
-              Faster collaboration
+              Faster, low-error collaboration across disciplines
             </Card>
           </Col>
 
           <Col span={8}>
             <Card className="highlight-card">
-              AI Modelling Assistant
+              Faster, low-error collaboration across disciplines
             </Card>
           </Col>
 
           <Col span={8}>
             <Card className="highlight-card">
-              Real-world validation
+              Real-world testing in IT, medical tech, and plant engineering
             </Card>
           </Col>
 
           <Col span={8}>
             <Card className="highlight-card">
-              Flexible IT architecture
+              Flexible, integrable IT architecture for model-based development
             </Card>
           </Col>
         </Row>
@@ -197,94 +201,102 @@ const partnerInfo = {
       >
         <Row gutter={[24, 24]}>
           <Col span={2}>
-              <div style={{ display:'flex', alignItems:'center', gap:'12px'}}>
-              <img src= {twtLogo} style={{ width:'60px',height:'30px', cursor: "pointer"}} onClick={() => setSelectedPartner(partnerInfo.twt)}/>
-             </div>
-          </Col>
-
-          <Col span={2.5}>
-              <div style={{ display:'flex', alignItems:'center', gap:'12px'}}>
-            <img src={siemensLogo} style={{ width:'auto',height:'30px', cursor: "pointer"}} onClick={() => setSelectedPartner(partnerInfo.siemens)}/>
-              </div>
-          </Col>
-
-          <Col span={2.5}>
-              <div style={{ display:'flex', alignItems:'center', gap:'12px'}}>
-              <img src={fraunhoferLogo} style={{ width:'auto',height:'30px', cursor: "pointer"}} onClick={() => setSelectedPartner(partnerInfo.fraunhofer)}/>
-              </div>
-          </Col>
-
-          <Col span={2}>
-              <div style={{ display:'flex', alignItems:'center', gap:'12px'}}>
-              <img src={MarquadtLogo} style={{ width:'150px',height:'30px', cursor: "pointer"}} onClick={() => setSelectedPartner(partnerInfo.marquardt)}/>
-              </div>
-          </Col>
-
-          <Col span={2.5}>
-              <div style={{ display:'flex', alignItems:'center', gap:'12px'}}>
-              <img src={kassbohrerLogo} style={{ width:'auto',height:'30px', cursor: "pointer"}} onClick={() => setSelectedPartner(partnerInfo.kassbohrer)}/>
-              </div>
-          </Col>
-
-          <Col span={2.5}>
-              <div style={{ display:'flex', alignItems:'center', gap:'12px'}}>
-            <img src={universityLogo} style={{ width:'auto',height:'30px', cursor: "pointer"}} onClick={() => setSelectedPartner(partnerInfo.tub)}/>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <img src={twtLogo} style={{ width: '60px', height: '30px', cursor: "pointer" }} onClick={() => setSelectedPartner(partnerInfo.twt)} />
             </div>
           </Col>
 
           <Col span={2.5}>
-              <div style={{ display:'flex', alignItems:'center', gap:'12px'}}>
-              <img src={youseLogo} style={{ width:'auto',height:'30px', cursor: "pointer"}} onClick={() => setSelectedPartner(partnerInfo.youse)}/>
-              </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <img src={siemensLogo} style={{ width: 'auto', height: '30px', cursor: "pointer" }} onClick={() => setSelectedPartner(partnerInfo.siemens)} />
+            </div>
+          </Col>
+
+          <Col span={2.5}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <img src={fraunhoferLogo} style={{ width: 'auto', height: '30px', cursor: "pointer" }} onClick={() => setSelectedPartner(partnerInfo.fraunhofer)} />
+            </div>
+          </Col>
+
+          <Col span={2}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <img src={MarquadtLogo} style={{ width: '150px', height: '30px', cursor: "pointer" }} onClick={() => setSelectedPartner(partnerInfo.marquardt)} />
+            </div>
+          </Col>
+
+          <Col span={2.5}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <img src={kassbohrerLogo} style={{ width: 'auto', height: '30px', cursor: "pointer" }} onClick={() => setSelectedPartner(partnerInfo.kassbohrer)} />
+            </div>
+          </Col>
+
+          <Col span={2.5}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <img src={universityLogo} style={{ width: 'auto', height: '30px', cursor: "pointer" }} onClick={() => setSelectedPartner(partnerInfo.tub)} />
+            </div>
+          </Col>
+
+          <Col span={2.5}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <img src={youseLogo} style={{ width: 'auto', height: '30px', cursor: "pointer" }} onClick={() => setSelectedPartner(partnerInfo.youse)} />
+            </div>
           </Col>
         </Row>
-       {selectedPartner && (
-  <Row
-    style={{
-      marginTop: "50px",
-      paddingTop: "30px",
-      borderTop: "1px solid #bdbdbd",
-    }}
-  >
-    <Col span={8}>
-      {selectedPartner.logo}
-    </Col>
+        {selectedPartner && (
+          <Row
+            style={{
+              marginTop: "50px",
+              paddingTop: "30px",
+              borderTop: "1px solid #bdbdbd",
+            }}
+          >
+            <Col span={8}>
+              {selectedPartner.logo}
+            </Col>
 
-    <Col span={16}>
-      <Title level={3}>
-        {selectedPartner.name}
-      </Title>
+            <Col span={16}>
+              <Title level={3}>
+                {selectedPartner.name}
+              </Title>
 
-      <Paragraph>
-        <strong>Role:</strong> {selectedPartner.role}
-      </Paragraph>
+              <Paragraph>
+                <strong>Role:</strong> {selectedPartner.role}
+              </Paragraph>
 
-      <Paragraph>
-        <strong>Contact:</strong> {selectedPartner.contact}
-      </Paragraph>
+              <Paragraph>
+                <strong>Contact:</strong> {selectedPartner.contact}
+              </Paragraph>
 
-      <Paragraph>
-        <strong>Address:</strong> {selectedPartner.address}
-      </Paragraph>
+              <Paragraph>
+                <strong>Address:</strong> {selectedPartner.address}
+              </Paragraph>
 
-      <Paragraph>
-        <strong>Email:</strong> {selectedPartner.email}
-      </Paragraph>
-    </Col>
-  </Row>
-)}
-
+              <Paragraph>
+                <strong>Email:</strong> {selectedPartner.email}
+              </Paragraph>
+            </Col>
+          </Row>
+        )}
       </Section>
+
 
       <Section
         id="funding"
         title="Funding"
         gray
       >
-        <Col span={10}>
-          Funded by BMFTR – Federal Ministry of
-          Research, Technology and Space.
-         </Col>
+        <Row align="middle" gutter={40}>
+          <Col span={12}>
+            <Paragraph style={{ fontSize: "20px" }}>
+              Funded by BMFTR – Federal Ministry of
+              Research, Technology and Space.
+            </Paragraph>
+          </Col>
+
+          <Col span={12} style={{ display: "flex", justifyContent: "left" }}>
+            <img src={fundingLogo} style={{ width: "200px", height: "100px" }} />
+          </Col>
+        </Row>
       </Section>
     </>
   );

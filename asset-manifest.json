@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rekonik/static/css/main.f63ccc96.css",
+    "main.js": "/rekonik/static/js/main.7ddbfdc3.js",
+    "index.html": "/rekonik/index.html",
+    "main.f63ccc96.css.map": "/rekonik/static/css/main.f63ccc96.css.map",
+    "main.7ddbfdc3.js.map": "/rekonik/static/js/main.7ddbfdc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f63ccc96.css",
+    "static/js/main.7ddbfdc3.js"
+  ]
+}

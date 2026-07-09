@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/rekonik/static/css/main.7dd713c6.css",
-    "main.js": "/rekonik/static/js/main.8e3fd33e.js",
+    "main.css": "/rekonik/static/css/main.4ccf2e86.css",
+    "main.js": "/rekonik/static/js/main.c8797dc6.js",
     "static/media/Picture1.png": "/rekonik/static/media/Picture1.9e5e9b18f339a717ce42.png",
     "static/media/twt.png": "/rekonik/static/media/twt.6c11e75bbff03cb23fd4.png",
     "static/media/Marquardt.svg": "/rekonik/static/media/Marquardt.490e4f1d26f7b89d449d57b48b8c45dc.svg",
     "static/media/siemens.svg": "/rekonik/static/media/siemens.ff9b0928bc9ccc7f1e96f94095b45ae1.svg",
     "static/media/youse.svg": "/rekonik/static/media/youse.2ef6783ef045cc269c0a76e5c2d08bc4.svg",
     "index.html": "/rekonik/index.html",
-    "main.7dd713c6.css.map": "/rekonik/static/css/main.7dd713c6.css.map",
-    "main.8e3fd33e.js.map": "/rekonik/static/js/main.8e3fd33e.js.map"
+    "main.4ccf2e86.css.map": "/rekonik/static/css/main.4ccf2e86.css.map",
+    "main.c8797dc6.js.map": "/rekonik/static/js/main.c8797dc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dd713c6.css",
-    "static/js/main.8e3fd33e.js"
+    "static/css/main.4ccf2e86.css",
+    "static/js/main.c8797dc6.js"
   ]
 }

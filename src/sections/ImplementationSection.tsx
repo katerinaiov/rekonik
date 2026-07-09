@@ -1,7 +1,8 @@
 import { Card, Typography } from "antd";
+import implementationImage from '../assets/Picture1.png'
 
 const { Title, Paragraph } = Typography;
-import implementationImage from '../assets/Picture1.png'
+
 
 export default function ImplementationSection() {
     return (

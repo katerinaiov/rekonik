@@ -17,37 +17,37 @@ const facts = [
         icon: <AimOutlined />,
         title: "Resilienz-Rahmenkonzept",
         description:
-            "Gestaltung kreativitäts-, innovations- und resilienzförderlicher Organisationsstrukturen.",
+            "Gestaltung kreativitäts-, innovations- und resilienzförderlicher Organisationsstrukturen und Arbeitsabläufe – anwendbar auf verschiedene Unternehmenskontexte mit modellbasierter Zusammenarbeit.",
     },
     {
         icon: <LaptopOutlined />,
         title: "KI-Assistent",
         description:
-            "Sprachmodellbasierter Assistent für Modellierung und Wissensaustausch.",
+            "Auf Sprachmodellen basierender Assistent, der konsistente SysML-v2-Modelle interaktiv erstellt, Modelle verschiedener Disziplinen vereinheitlicht und unerfahrenen Nutzern erklärt.",
     },
     {
         icon: <BarChartOutlined />,
         title: "Maßnahmen & Indikatoren",
         description:
-            "Indikatoren für Implementierung und Wirksamkeitsanalyse.",
+            "Indikatoren für die Implementierung der ReKonIK-Lösungen und die Wirksamkeitsanalyse auf den Ebenen Individuum, Team und Organisation.",
     },
     {
         icon: <BulbOutlined />,
         title: "Zukunftsszenarien",
         description:
-            "Design-Futuring Szenarien und resiliente Kollaboration.",
+            "Mit Design-Futuring-Methoden partizipativ erarbeitete Szenarien zur künftigen, KI-unterstützten Kollaboration an und mit Modellen unter Störereignissen.",
     },
     {
         icon: <AppstoreOutlined />,
         title: "Planspiel",
         description:
-            "Serious Game zur Erprobung von Störereignissen.",
+            "Serious Game zur Erprobung von Störereignissen und Resilienzmaßnahmen in vordefinierten Rollen – als Schulungselement für Transformation und Wissenstransfer, auch in KMU.",
     },
     {
         icon: <FileTextOutlined />,
         title: "Transformations-blaupausen",
         description:
-            "Öffentlich zugängliche Blaupausen für KMU.",
+            "Generalisierte, öffentlich zugängliche Blaupausen für die Optimierung von Kreativität, Innovation und Resilienz – validiert durch pilothafte Implementierung bei den Anwendungspartnern.",
     },
 ];
 

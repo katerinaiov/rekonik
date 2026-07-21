@@ -2,71 +2,89 @@ import {
     Card,
     Col,
     Row,
-    Typography
+    Typography,
+    Divider
 } from "antd";
 
-import fundingLogo from '../assets/funding.png';
+import fundingLogo from "../assets/funding.png";
+import rekonikLogo from "../assets/Picture1.png"
 
 const { Title, Paragraph } = Typography;
 
 export default function FundingSection() {
     return (
-        <section className="funding-section">
+        <>
+            <section className="funding-section">
+                <div className="funding-container">
+                    <Title level={2} className="section-title">
+                        Förderung
+                    </Title>
 
-            <Title className="section-title">
-                Förderung
-            </Title>
+                    <Paragraph className="funding-description">
+                        ReKonIK wird im Programm „Zukunft der Wertschöpfung“ des
+                        Bundesministeriums für Forschung, Technologie und Raumfahrt
+                        (BMFTR) in der Fördermaßnahme „Arbeitshandeln für Kreativität,
+                        Innovation und resiliente Wertschöpfung“ (AKIres) gefördert.
+                    </Paragraph>
 
-            <Paragraph className="funding-description">
-                ReKonIK wird im Programm
-                „Zukunft der Wertschöpfung“
-                des Bundesministeriums für
-                Forschung, Technologie und Raumfahrt
-                (BMFTR) gefördert.
-            </Paragraph>
+                    <Row justify="center">
+                        <Col xs={20} md={8} lg={6}>
+                            <Card bordered={false} className="funding-logo">
+                                <img src={fundingLogo} alt="BMFTR Logo" />
+                            </Card>
+                        </Col>
+                    </Row>
 
-            <Row justify="center">
-                <Col span={8}>
-                    <Card className="funding-logo">
-                        <img src={fundingLogo} />
-                    </Card>
-                </Col>
-            </Row>
+                    <div className="funding-details">
+                        <div className="detail-row">
+                            <strong>Projektlaufzeit:</strong>
+                            <span>01.01.2026 – 31.12.2028</span>
+                        </div>
 
-            <div className="funding-details">
+                        <div className="detail-row">
+                            <strong>Förderkennzeichen:</strong>
+                            <span>[FKZ]</span>
+                        </div>
 
-                <Row>
-                    <Col span={8}>
-                        <strong>Projektlaufzeit:</strong>
-                    </Col>
+                        <div className="detail-row">
+                            <strong>Projektträger:</strong>
+                            <span>[Projektträger]</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-                    <Col span={16}>
-                        01.01.2026 – 31.12.2028
-                    </Col>
-                </Row>
+            <footer className="funding-footer">
+                <div className="footer-content">
+                    <div className="footer-logo">
+                        <img src={rekonikLogo} alt="ReKonIK" />
+                        <h3>ReKonIK</h3>
+                    </div>
 
-                <Row>
-                    <Col span={8}>
-                        <strong>Förderkennzeichen:</strong>
-                    </Col>
+                    <div className="footer-links">
+                        <a href="#home"> Impressum </a>
+                        <a href="#home"> Datenschutz </a>
+                    </div>
 
-                    <Col span={16}>
-                        [FKZ]
-                    </Col>
-                </Row>
+                    <div className="footer-contact">
+                        <p>Dr. Martin Obstbaum · Johannes Iglhaut</p>
+                        <p>
+                            <a href="mailto:martin.obstbaum@twt-gmbh.de">
+                                martin.obstbaum@twt-gmbh.de
+                            </a>
+                        </p>
+                        <p>TWT GmbH Science & Innovation</p>
+                        <p>Industriestraße 6</p>
+                        <p>70565 Stuttgart/Germany</p>
+                    </div >
+                </div >
 
-                <Row>
-                    <Col span={8}>
-                        <strong>Projektträger:</strong>
-                    </Col>
+                <Divider />
 
-                    <Col span={16}>
-                        [Projektträger]
-                    </Col>
-                </Row>
-
-            </div>
-
-        </section>
+                <div className="footer-bottom">
+                    © 2026 ReKonIK-Konsortium. All rights reserved.
+                </div>
+            </footer >
+        </>
     );
 }

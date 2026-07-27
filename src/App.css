@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-family: Inter, Arial, sans-serif;
   color: #24364b;
+  overflow-x: hidden;
 }
 
 * {
@@ -22,7 +23,7 @@ a {
 ===================== */
 
 .container {
-  max-width: 1280px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -46,19 +47,21 @@ a {
 }
 
 .site-logo {
+  margin-top: 30px;
   display: flex;
-  align-items: center;
-  gap: 12px;
+  align-items: flex-start;
+  gap: 1px;
 }
 
 .site-logo img {
-  width: 42px;
+  margin: 10px;
+  width: 120px;
 }
 
 .site-logo span {
-  color: #2956a6;
   font-size: 20px;
   font-weight: 700;
+  color: #203525;
 }
 
 .site-menu {
@@ -73,7 +76,7 @@ a {
 ===================== */
 
 .hero-section {
-  background: #eef2fa;
+  background: #def8e5;
   height: 55vh;
 
   display: flex;
@@ -88,7 +91,7 @@ a {
 }
 
 .hero-title {
-  color: #2956a6 !important;
+  color: #203525 !important;
   font-size: 50px !important;
   font-weight: 700 !important;
   line-height: 1.2 !important;
@@ -116,7 +119,7 @@ a {
 
 .section-title {
   text-align: center;
-  color: #2956a6 !important;
+  color: #203525 !important;
   margin-bottom: 80px !important;
 }
 
@@ -141,19 +144,19 @@ section {
 
 .fact-icon {
   font-size: 60px;
-  color: #2956a6;
+  color: #203525;
   margin-bottom: 20px;
 }
 
 .fact-title {
   font-size: 28px;
   font-weight: 700;
-  color: #2956a6;
+  color: #203525;
   margin-bottom: 20px;
 }
 
 .fact-description {
-  color: #15509e;
+  color: #203525;
   line-height: 1.8;
   font-size: 18px;
 }
@@ -163,7 +166,7 @@ section {
 ===================== */
 
 .implementation-section {
-  background: #eef2fa;
+  background: #def8e5;
   padding: 100px 0;
 }
 
@@ -188,7 +191,7 @@ section {
 .text-block h2 {
   font-size: 25px;
   font-weight: 700;
-  color: #2956a6;
+  color: #203525;
   text-align: center;
 }
 
@@ -226,7 +229,8 @@ section {
 }
 
 .partner-logo-box {
-  height: 50px;
+  height: 150px;
+  width: 400px;
 
   display: flex;
   align-items: center;
@@ -239,7 +243,7 @@ section {
 }
 
 .partner-card h2 {
-  color: #2956a6 !important;
+  color: #203525 !important;
   margin-bottom: 24px !important;
 }
 
@@ -253,7 +257,7 @@ section {
 
 .partner-card li {
   line-height: 2;
-  color: #2058a7;
+  color: #203525;
 }
 
 /* =====================
@@ -261,13 +265,13 @@ section {
 ===================== */
 
 .funding-section {
-  background: #dfe6ef;
+  background: #def8e5;
   padding: 80px 20px 100px;
   text-align: center;
 }
 
 .funding-section h2 {
-  color: #214f98;
+  color: #203525;
   font-size: 35px;
   font-weight: 650;
   margin-bottom: 30px;
@@ -352,8 +356,8 @@ section {
 }
 
 .footer-logo img {
-  width: 40px !important;
-  height: 40px !important;
+  width: 50px !important;
+  height: 50px !important;
   min-width: 100px;
   max-width: 100px;
   object-fit: contain;
@@ -363,21 +367,22 @@ section {
 
 .footer-logo h3 {
   margin: 0;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
-  color: #24539b;
+  color: #203525;
 }
 
 
 
 .footer-links a {
-  color: #24539b;
+  margin: 12px;
+  color: #249b6d;
   text-decoration: none;
   font-size: 16px;
 }
 
 .footer-contact a {
-  color: #24539b;
+  color: #249b6d;
   text-decoration: none;
 }
 
@@ -394,7 +399,7 @@ section {
    RESPONSIVE
 ===================== */
 
-@media (max-width: 992px) {
+@media (max-width: 900px) {
   .site-header {
     padding: 0 24px;
   }

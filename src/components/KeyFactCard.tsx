@@ -1,16 +1,15 @@
 import { Card } from "antd";
 import { ReactNode } from "react";
+import { Fact } from '../types/Facts';
+
 
 interface Props {
-    icon: ReactNode;
-    title: string;
-    description: string;
+    fact: Fact;
 }
 
+
 export default function KeyFactCard({
-    icon,
-    title,
-    description,
+    fact,
 }: Props) {
     return (
         <Card
@@ -18,12 +17,12 @@ export default function KeyFactCard({
             className="key-fact-card"
         >
             <div className="fact-icon">
-                {icon}
+                <img src={fact.icon} style={{ width: '100px', height: 'auto' }} />
             </div>
 
-            <h3>{title}</h3>
+            <h3>{fact.title}</h3>
 
-            <p>{description}</p>
+            <p>{fact.description}</p>
         </Card>
     );
 }

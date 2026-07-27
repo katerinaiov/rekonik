@@ -1,10 +1,10 @@
-import twtLogo from '../assets/twt.png';
+import twtLogo from '../assets/TWT logo.jpg';
 import fraunhoferLogo from '../assets/fraunhofer.png';
-import kassbohrerLogo from '../assets/kassbohrer.jpg';
-import MarquadtLogo from '../assets/Marquardt.svg';
-import siemensLogo from '../assets/siemens.svg';
-import universityLogo from '../assets/university.png';
-import youseLogo from '../assets/youse.svg';
+import kassbohrerLogo from '../assets/kassbohrer.jpeg';
+import marquardtLogo from '../assets/Marquardt.jpg';
+import siemensLogo from '../assets/siemens.webp';
+import universityLogo from '../assets/university.webp';
+import youseLogo from '../assets/youse.jpg';
 
 
 import { Partner } from '../types/partner';
@@ -94,7 +94,7 @@ export const partners: Partner[] = [
     {
         id: "marquardt",
         name: "Marquardt GmbH",
-        logo: MarquadtLogo,
+        logo: marquardtLogo,
         business:
             "Automobilzulieferer (Tier 1) – Zutrittssysteme, Ladesysteme für E-Mobilität",
         employees: "[einfügen]",

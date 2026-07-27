@@ -36,10 +36,10 @@ export default function HeaderMenu() {
     return (
         <Header className="site-header">
             <div className="site-logo">
-                <img src={RekonikLogo} alt="ReKonIK"
-                />
-
-                <span>ReKonIK</span>
+                <a href="#home">
+                    <img src={RekonikLogo} alt="ReKonIK" />
+                </a>
+                <a href="#home"><span>ReKonIK</span></a>
             </div>
 
             <Menu

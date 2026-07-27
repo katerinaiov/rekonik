@@ -1,6 +1,7 @@
 import { Card, Col, Row, Typography } from "antd";
 import { Partner } from '../types/partner';
 
+
 const { Title } = Typography;
 
 interface Props {
@@ -18,7 +19,7 @@ export default function PartnerCard({
                 <Col xs={24} md={6}>
                     <Card className="partner-logo-box">
 
-                        <img src={partner.logo} style={{ maxWidth: '100%', height: 'auto' }} />
+                        <img src={partner.logo} style={{ width: '230px', height: 'auto' }} />
 
                     </Card>
                 </Col>

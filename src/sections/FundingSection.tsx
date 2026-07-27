@@ -6,7 +6,7 @@ import {
     Divider
 } from "antd";
 
-import fundingLogo from "../assets/funding.png";
+import fundingLogo from "../assets/BMFTR_Logo.svg";
 import rekonikLogo from "../assets/Picture1.png"
 
 const { Title, Paragraph } = Typography;
@@ -29,9 +29,9 @@ export default function FundingSection() {
 
                     <Row justify="center">
                         <Col xs={20} md={8} lg={6}>
-                            <Card bordered={false} className="funding-logo">
-                                <img src={fundingLogo} alt="BMFTR Logo" />
-                            </Card>
+
+                            <img src={fundingLogo} alt="BMFTR Logo" />
+
                         </Col>
                     </Row>
 
@@ -57,8 +57,8 @@ export default function FundingSection() {
             <footer className="funding-footer">
                 <div className="footer-content">
                     <div className="footer-logo">
-                        <img src={rekonikLogo} alt="ReKonIK" />
-                        <h3>ReKonIK</h3>
+                        <a href="#home"><img src={rekonikLogo} alt="ReKonIK" /></a>
+                        <a href="#home"><h3>ReKonIK</h3></a>
                     </div>
 
                     <div className="footer-links">

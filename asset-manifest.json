@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/rekonik/static/css/main.8ed0aefb.css",
-    "main.js": "/rekonik/static/js/main.a2863925.js",
+    "main.css": "/rekonik/static/css/main.2cbc346d.css",
+    "main.js": "/rekonik/static/js/main.7862eef8.js",
+    "static/media/Marquardt.jpg": "/rekonik/static/media/Marquardt.69b379fd9045418b5adf.jpg",
+    "static/media/university.webp": "/rekonik/static/media/university.6ca12b42223c8ebd3c5d.webp",
+    "static/media/kassbohrer.jpeg": "/rekonik/static/media/kassbohrer.347effa5172a16b60ee9.jpeg",
+    "static/media/TWT logo.jpg": "/rekonik/static/media/TWT logo.06aa4dea557963ab400d.jpg",
+    "static/media/youse.jpg": "/rekonik/static/media/youse.59c9cc26008f2717f67b.jpg",
     "static/media/Picture1.png": "/rekonik/static/media/Picture1.9e5e9b18f339a717ce42.png",
-    "static/media/twt.png": "/rekonik/static/media/twt.6c11e75bbff03cb23fd4.png",
-    "static/media/Marquardt.svg": "/rekonik/static/media/Marquardt.490e4f1d26f7b89d449d57b48b8c45dc.svg",
-    "static/media/siemens.svg": "/rekonik/static/media/siemens.ff9b0928bc9ccc7f1e96f94095b45ae1.svg",
-    "static/media/youse.svg": "/rekonik/static/media/youse.2ef6783ef045cc269c0a76e5c2d08bc4.svg",
+    "static/media/fraunhofer.png": "/rekonik/static/media/fraunhofer.922662595d4095c1edf3.png",
+    "static/media/BMFTR_Logo.svg": "/rekonik/static/media/BMFTR_Logo.26504c201a37d49d25c4fd2bfec55de4.svg",
+    "static/media/siemens.webp": "/rekonik/static/media/siemens.46f43d61efcb40466cd0.webp",
     "index.html": "/rekonik/index.html",
-    "main.8ed0aefb.css.map": "/rekonik/static/css/main.8ed0aefb.css.map",
-    "main.a2863925.js.map": "/rekonik/static/js/main.a2863925.js.map"
+    "main.2cbc346d.css.map": "/rekonik/static/css/main.2cbc346d.css.map",
+    "main.7862eef8.js.map": "/rekonik/static/js/main.7862eef8.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ed0aefb.css",
-    "static/js/main.a2863925.js"
+    "static/css/main.2cbc346d.css",
+    "static/js/main.7862eef8.js"
   ]
 }

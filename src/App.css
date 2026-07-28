@@ -69,6 +69,23 @@ a {
   min-width: 500px;
   font-weight: 600;
   justify-content: flex-end;
+
+}
+
+/* Hover text color */
+.site-menu.ant-menu-horizontal>.ant-menu-item:hover {
+  color: #249b6d !important;
+}
+
+/* Selected item text color */
+.site-menu.ant-menu-horizontal>.ant-menu-item-selected {
+  color: #249b6d !important;
+}
+
+/* Green underline on hover and selected */
+.site-menu.ant-menu-horizontal>.ant-menu-item:hover::after,
+.site-menu.ant-menu-horizontal>.ant-menu-item-selected::after {
+  border-bottom-color: #249b6d !important;
 }
 
 /* =====================
@@ -77,11 +94,12 @@ a {
 
 .hero-section {
   background: #def8e5;
-  height: 55vh;
+  min-height: 55vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px 0;
 }
 
 .hero-container {
@@ -92,7 +110,7 @@ a {
 
 .hero-title {
   color: #203525 !important;
-  font-size: 50px !important;
+  font-size: clamp(2rem, 5vw, 50px) !important;
   font-weight: 700 !important;
   line-height: 1.2 !important;
 }
@@ -107,10 +125,12 @@ a {
 
 .hero-footer {
   max-width: 800px;
-  margin-top: 50px;
   margin: 40px auto 0;
   color: #667085;
   font-size: 16px;
+
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 /* =====================
@@ -210,7 +230,8 @@ section {
 ===================== */
 
 .partners-section {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 0;
 }
 
 .logo-grid-card {
@@ -229,22 +250,26 @@ section {
 }
 
 .partner-logo-box {
-  height: 150px;
-  width: 400px;
-
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  min-height: 150px;
 }
 
 .partner-logo-image {
-  max-width: 50px;
-  max-height: 50px;
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+  display: block;
 }
 
 .partner-card h2 {
   color: #203525 !important;
   margin-bottom: 24px !important;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
 }
 
 .partner-card h3 {
@@ -258,6 +283,13 @@ section {
 .partner-card li {
   line-height: 2;
   color: #203525;
+}
+
+.partner-content {
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+
 }
 
 /* =====================
@@ -419,6 +451,22 @@ section {
   .text-block p {
     font-size: 25px;
   }
+
+  .partner-card {
+    margin: 40px 0;
+
+  }
+
+  .partner-logo-box {
+    max-width: 100%;
+    margin-bottom: 16px;
+
+  }
+
+  .partner-card h2 {
+    font-size: 30px !important;
+
+  }
 }
 
 @media (max-width: 768px) {
@@ -449,4 +497,18 @@ section {
   .detail-row {
     flex-wrap: wrap;
   }
+}
+
+@media (max-width: 576px) {
+  .partner-card h2 {
+    font-size: 24px !important;
+
+  }
+
+  .partner-card ul {
+    padding-left: 16px;
+
+  }
+
+
 }

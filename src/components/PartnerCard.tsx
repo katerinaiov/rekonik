@@ -14,17 +14,17 @@ export default function PartnerCard({
     return (
         <div className="partner-card">
 
-            <Row gutter={48} align="top">
+            <Row gutter={[24, 24]} align="top">
 
-                <Col xs={24} md={6}>
+                <Col xs={24} lg={6}>
                     <Card className="partner-logo-box">
 
-                        <img src={partner.logo} style={{ width: '230px', height: 'auto' }} />
+                        <img src={partner.logo} style={{ width: '100%', maxWidth: '230px', height: 'auto', display: 'block' }} />
 
                     </Card>
                 </Col>
 
-                <Col xs={24} md={18}>
+                <Col xs={24} lg={18} className="partner-content">
 
                     <Title level={2}>
                         {partner.name}

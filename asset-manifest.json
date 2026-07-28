@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rekonik/static/css/main.2cbc346d.css",
-    "main.js": "/rekonik/static/js/main.7862eef8.js",
+    "main.css": "/rekonik/static/css/main.4af8667b.css",
+    "main.js": "/rekonik/static/js/main.503d4374.js",
     "static/media/Marquardt.jpg": "/rekonik/static/media/Marquardt.69b379fd9045418b5adf.jpg",
     "static/media/university.webp": "/rekonik/static/media/university.6ca12b42223c8ebd3c5d.webp",
     "static/media/kassbohrer.jpeg": "/rekonik/static/media/kassbohrer.347effa5172a16b60ee9.jpeg",
@@ -12,11 +12,11 @@
     "static/media/BMFTR_Logo.svg": "/rekonik/static/media/BMFTR_Logo.26504c201a37d49d25c4fd2bfec55de4.svg",
     "static/media/siemens.webp": "/rekonik/static/media/siemens.46f43d61efcb40466cd0.webp",
     "index.html": "/rekonik/index.html",
-    "main.2cbc346d.css.map": "/rekonik/static/css/main.2cbc346d.css.map",
-    "main.7862eef8.js.map": "/rekonik/static/js/main.7862eef8.js.map"
+    "main.4af8667b.css.map": "/rekonik/static/css/main.4af8667b.css.map",
+    "main.503d4374.js.map": "/rekonik/static/js/main.503d4374.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cbc346d.css",
-    "static/js/main.7862eef8.js"
+    "static/css/main.4af8667b.css",
+    "static/js/main.503d4374.js"
   ]
 }

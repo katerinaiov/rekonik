@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/rekonik/static/css/main.4af8667b.css",
-    "main.js": "/rekonik/static/js/main.503d4374.js",
+    "main.css": "/rekonik/static/css/main.d14a7456.css",
+    "main.js": "/rekonik/static/js/main.3b07806e.js",
+    "static/media/BMFTR.png": "/rekonik/static/media/BMFTR.cd7d0cd891115d35827f.png",
     "static/media/Marquardt.jpg": "/rekonik/static/media/Marquardt.69b379fd9045418b5adf.jpg",
     "static/media/university.webp": "/rekonik/static/media/university.6ca12b42223c8ebd3c5d.webp",
     "static/media/kassbohrer.jpeg": "/rekonik/static/media/kassbohrer.347effa5172a16b60ee9.jpeg",
-    "static/media/TWT logo.jpg": "/rekonik/static/media/TWT logo.06aa4dea557963ab400d.jpg",
     "static/media/youse.jpg": "/rekonik/static/media/youse.59c9cc26008f2717f67b.jpg",
+    "static/media/TWT_LOGO_CYANBIG.png": "/rekonik/static/media/TWT_LOGO_CYANBIG.b03cd2adfa985e0ec000.png",
     "static/media/Picture1.png": "/rekonik/static/media/Picture1.9e5e9b18f339a717ce42.png",
     "static/media/fraunhofer.png": "/rekonik/static/media/fraunhofer.922662595d4095c1edf3.png",
-    "static/media/BMFTR_Logo.svg": "/rekonik/static/media/BMFTR_Logo.26504c201a37d49d25c4fd2bfec55de4.svg",
-    "static/media/siemens.webp": "/rekonik/static/media/siemens.46f43d61efcb40466cd0.webp",
+    "static/media/sie-logo-petrol-rgb.png": "/rekonik/static/media/sie-logo-petrol-rgb.5dbd0bc990b4583bf864.png",
     "index.html": "/rekonik/index.html",
-    "main.4af8667b.css.map": "/rekonik/static/css/main.4af8667b.css.map",
-    "main.503d4374.js.map": "/rekonik/static/js/main.503d4374.js.map"
+    "main.d14a7456.css.map": "/rekonik/static/css/main.d14a7456.css.map",
+    "main.3b07806e.js.map": "/rekonik/static/js/main.3b07806e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4af8667b.css",
-    "static/js/main.503d4374.js"
+    "static/css/main.d14a7456.css",
+    "static/js/main.3b07806e.js"
   ]
 }

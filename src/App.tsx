@@ -7,6 +7,7 @@ import KeyFactsSection from "./sections/KeyFactsSection";
 import ImplementationSection from "./sections/ImplementationSection";
 import PartnersSection from "./sections/PartnersSection";
 import FundingSection from "./sections/FundingSection";
+import PublicationsSection from "./sections/PublicationsSection";
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
 
         <section id="partners">
           <PartnersSection />
+        </section>
+
+        <section id="puclications">
+          <PublicationsSection />
         </section>
 
         <section id="funding">

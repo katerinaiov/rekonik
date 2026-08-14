@@ -1,8 +1,8 @@
-import twtLogo from '../assets/TWT logo.jpg';
+import twtLogo from '../assets/TWT_LOGO_CYANBIG.png';
 import fraunhoferLogo from '../assets/fraunhofer.png';
 import kassbohrerLogo from '../assets/kassbohrer.jpeg';
 import marquardtLogo from '../assets/Marquardt.jpg';
-import siemensLogo from '../assets/siemens.webp';
+import siemensLogo from '../assets/sie-logo-petrol-rgb.png';
 import universityLogo from '../assets/university.webp';
 import youseLogo from '../assets/youse.jpg';
 
@@ -29,6 +29,7 @@ export const partners: Partner[] = [
             "Prototyp eines KI-Assistenten für die Modellierung und Nachweis seiner Wirksamkeit",
             "Transfer der Ergebnisse in KMU über einen KMU-Anwenderkreis",
         ],
+        contact: "Contact person",
     },
 
     {
@@ -49,6 +50,7 @@ export const partners: Partner[] = [
             "Resilienz-Rahmenkonzept für Analyse und Transformation auf Team- und Organisationsebene",
             "Indikatoren für die kontinuierliche Analyse und Optimierung der Resilienz in den ITO-Ebenen",
         ],
+        contact: "Contact person",
     },
 
     {
@@ -70,6 +72,7 @@ export const partners: Partner[] = [
             "Generierung von Architekturmodellen mit Large Language Models (SysML v1 → SysML v2)",
             "Kombination generativer KI mit formalen Methoden und Knowledge Graphs",
         ],
+        contact: "Contact person",
     },
 
     {
@@ -89,6 +92,7 @@ export const partners: Partner[] = [
             "Training antizipatorischer Kompetenzen auf Mitarbeiter- und Teamebene",
             "Einheitliche Leitbilder (Zukunftsszenarien) für die KI-gestützte Organisation und Arbeit",
         ],
+        contact: "Contact person",
     },
 
     {
@@ -108,6 +112,7 @@ export const partners: Partner[] = [
             "Durchgängigkeit von der Kundenfunktion bis in die einzelne Fachdomäne über transdisziplinäre Architekturmodelle",
             "Stärkung der persönlichen Resilienz der Modellierungsverantwortlichen und der Zusammenarbeit der Entwicklungsteams",
         ],
+        contact: "Contact person",
     },
 
     {
@@ -128,6 +133,7 @@ export const partners: Partner[] = [
             "Resilienz in der disziplinübergreifenden Zusammenarbeit trotz heterogener Modellierungssprachen",
             "Gesteigerte Reaktions- und Handlungsfähigkeit auf Mitarbeiter- und Organisationsebene",
         ],
+        contact: "Contact person",
     },
 
     {
@@ -147,5 +153,6 @@ export const partners: Partner[] = [
             "Disziplinübergreifende, modellbasierte Zusammenarbeit zwischen Vertrieb, Produktentwicklung, Produktion und Service",
             "Handlungsfähigkeit gegenüber langfristigen Störereignissen wie dem Wandel zur E-Mobilität",
         ],
+        contact: "Contact person",
     },
 ];

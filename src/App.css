@@ -66,7 +66,7 @@ a {
 
 .site-menu {
   border: none;
-  min-width: 500px;
+  min-width: 600px;
   font-weight: 600;
   justify-content: flex-end;
 
@@ -226,6 +226,39 @@ section {
 }
 
 /* =====================
+   PUBLICATIONS
+===================== */
+
+.publications-section {
+  background: #def8e5;
+  padding: 100px 0;
+}
+
+
+
+.text-block {
+  max-width: 800px;
+  margin: 80px auto;
+}
+
+.text-block h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #203525;
+  text-align: center;
+}
+
+.text-block p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.implementation-paragraph {
+  font-size: 16px !important;
+  line-height: 1.8;
+}
+
+/* =====================
    PARTNERS
 ===================== */
 
@@ -297,7 +330,7 @@ section {
 ===================== */
 
 .funding-section {
-  background: #def8e5;
+
   padding: 80px 20px 100px;
   text-align: center;
 }
@@ -318,15 +351,17 @@ section {
 }
 
 .funding-logo {
-  max-width: 240px;
+  max-width: 50px;
   margin: 0 auto 30px;
   padding: 10px;
 }
 
-.funding-image {
+.funding-section img {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
   width: 100%;
   height: auto;
-  display: block;
 }
 
 .funding-details {
@@ -346,6 +381,10 @@ section {
 .detail-row strong {
   color: #24539b;
   font-weight: 700;
+}
+
+.funding-footer {
+  background: #def8e5;
 }
 
 /* =====================
@@ -408,13 +447,13 @@ section {
 
 .footer-links a {
   margin: 12px;
-  color: #249b6d;
+  color: #0b3b29;
   text-decoration: none;
   font-size: 16px;
 }
 
 .footer-contact a {
-  color: #249b6d;
+  color: #0b3b29;
   text-decoration: none;
 }
 

@@ -24,6 +24,10 @@ const menuItems = [
         label: <a href="#partners">Partner</a>
     },
     {
+        key: "puclications",
+        label: <a href="#puclications">Veröffentlichungen</a>
+    },
+    {
         key: "funding",
         label: <a href="#funding">Förderung</a>
 

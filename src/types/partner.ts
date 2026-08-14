@@ -8,4 +8,5 @@ export interface Partner {
     competencies: string[];
     role: string[];
     goals: string[];
+    contact: string;
 }

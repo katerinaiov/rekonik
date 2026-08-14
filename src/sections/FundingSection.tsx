@@ -6,7 +6,7 @@ import {
     Divider
 } from "antd";
 
-import fundingLogo from "../assets/BMFTR_Logo.svg";
+import fundingLogo from "../assets/BMFTR.png";
 import rekonikLogo from "../assets/Picture1.png"
 
 const { Title, Paragraph } = Typography;
@@ -28,7 +28,7 @@ export default function FundingSection() {
                     </Paragraph>
 
                     <Row justify="center">
-                        <Col xs={20} md={8} lg={6}>
+                        <Col xs={24} md={16} lg={12}>
 
                             <img src={fundingLogo} alt="BMFTR Logo" />
 

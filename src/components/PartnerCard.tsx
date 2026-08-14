@@ -63,6 +63,10 @@ export default function PartnerCard({
                             <li key={item}>{item}</li>
                         ))}
                     </ul>
+                    <p>
+                        <strong>Ansprechpartner:</strong>{" "}
+                        {partner.contact}
+                    </p>
 
                 </Col>
 
